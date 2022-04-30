@@ -34,13 +34,13 @@ with st.expander("Dev - Team", expanded=False):
     row1_1, row1_2, row1_3 = st.columns((1, 1, 1))
     with row1_1:
         st.write("Philip Maron")
-        st.image("201023_BUS_Maron_0937.jpg", width=650)
+        st.image("201023_BUS_Maron_0937.jpg")
     with row1_2:
         st.write("Philip Maron")
-        st.image("201023_BUS_Maron_0937.jpg", width=650)
+        st.image("201023_BUS_Maron_0937.jpg")
     with row1_3:
         st.write("Philip Maron")
-        st.image("201023_BUS_Maron_0937.jpg", width=650)
+        st.image("201023_BUS_Maron_0937.jpg")
 
 with st.expander("ℹ️ Setup instructions", expanded=False):
 
