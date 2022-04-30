@@ -29,6 +29,9 @@ with b:
 
 st.write("Type in a term to view the latest Twitter sentiment on that term.")
 
+with st.expander("Dev - Team", expanded=False):
+    st.image("201023_BUS_Maron_0937.jpg", width=650)
+
 with st.expander("ℹ️ Setup instructions", expanded=False):
 
     st.markdown(
