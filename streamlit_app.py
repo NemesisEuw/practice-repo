@@ -30,7 +30,17 @@ with b:
 st.write("Type in a term to view the latest Twitter sentiment on that term.")
 
 with st.expander("Dev - Team", expanded=False):
-    st.image("201023_BUS_Maron_0937.jpg", width=650)
+    # LAYING OUT THE MIDDLE SECTION OF THE APP WITH THE MAPS
+    row1_1, row1_2, row1_3 = st.columns((1, 1, 1))
+    with row1_1:
+        st.write("Philip Maron")
+        st.image("201023_BUS_Maron_0937.jpg", width=650)
+    with row1_2:
+        st.write("Philip Maron")
+        st.image("201023_BUS_Maron_0937.jpg", width=650)
+    with row1_3:
+        st.write("Philip Maron")
+        st.image("201023_BUS_Maron_0937.jpg", width=650)
 
 with st.expander("ℹ️ Setup instructions", expanded=False):
 
